@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './components/App';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
-import About from './components/About'
-import POPOSList from './components/POPOSList'
+import About from './components/About/About'
+import POPOSList from './components/POPOSList/POPOSList'
 import reportWebVitals from './reportWebVitals';
-import POPOSDetails from './components/POPOSDetails'
+import POPOSDetails from './components/POPOSDetails/POPOSDetails'
 
 ReactDOM.render(
   <Router>

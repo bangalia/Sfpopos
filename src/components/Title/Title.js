@@ -1,7 +1,7 @@
 // src/Title.js
 import { NavLink } from 'react-router-dom'
 import React from 'react'
-import './Title.css';
+import './Title/Title.css';
 
 function Title() {
   return (
